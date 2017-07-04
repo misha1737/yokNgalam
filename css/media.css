@@ -1,0 +1,184 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #01a2a6;
+		position: fixed;
+	}
+	.logo{
+	margin-top: 0px;
+	}
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #ffffa6;
+		color:#10273d;
+	}
+	.menu_btn span{
+	top: -15px;
+	}
+	#top_menu{
+		background-color: #01a2a6;
+	}
+	.menu li{
+		display:block;
+		text-align:center;
+	}
+	.menu li a{
+		display:block;
+		font-size: 18px;
+	}
+	.menu li a:hover{
+		background-color:#ffffa6;
+		color:#10273d;
+		border: solid 3px rgba(0,0,0,0);
+	}
+	
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #01a2a6;
+		position: fixed;
+	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+	margin-top: 0px;
+	}
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #ffffa6;
+		color:#10273d;
+	}
+	.menu_btn span{
+	top: -15px;
+	}
+	#top_menu{
+		background-color: #01a2a6;
+	}
+	.menu li{
+		display: block;
+		text-align:center;
+	}
+	.menu li a{
+		display: block;
+		font-size: 18px;
+	}
+	.menu li a:hover{
+		background-color:#ffffa6;
+		color:#10273d;
+		border: solid 3px rgba(0,0,0,0);
+	}
+	.title_block h1{
+	font-size: 30px;
+	}
+	.title_block p
+	{
+	font-size: 14px;
+	}
+	.about h2{
+		margin-top: 30px;
+		font-size : 30px;
+	}
+	.about p{
+		font-size : 14px;
+		line-height: 20px;
+	}	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #01a2a6;
+		position: fixed;
+	}
+	.logo{
+	margin-top: 0px;
+	}
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #ffffa6;
+		color:#10273d;
+	}
+	.menu_btn span{
+	top: -15px;
+	}
+	#top_menu{
+		background-color: #01a2a6;
+	}
+	.menu li{
+		display:block;
+		text-align:center;
+	}
+	.menu li a{
+		display:block;
+		font-size: 18px;
+	}
+	.menu li a:hover,
+	{
+		background-color:#ffffa6;
+		color:#10273d;
+		border: solid 3px rgba(0,0,0,0);
+	}
+	.about h2{
+		margin-top: 30px;
+		font-size : 30px;
+	}
+	.about p{
+		font-size : 14px;
+		line-height: 20px;
+	}
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
