@@ -15,6 +15,14 @@ body {
 	font-size: 16px;
 	font-family: "Lato-Black", sans-serif;
 }
+h2{
+	font-size: 25px;
+	font-family: "Montserrat-Regular", sans-serif;
+	color:#fff;
+	}
+h2 span{
+	font-family: "Montserrat-Bold", sans-serif;
+	}
 
 
 /*header*/
@@ -175,4 +183,165 @@ margin-top:120px;
 }
 .destination .sort a:hover{
 	opacity: 1;
+}
+
+.batu{
+	background-image: url(../img/batu_baner.jpg);
+	background-size: cover;
+	background-position: center;
+	max-height: 520px;
+	margin-top: 20px;
+}	
+
+.batuInformation, .bromoInformation{
+	background-color: rgba(255,255,255, 0.9);
+	padding: 20px 20px;
+}
+
+ .batuInformation::before{
+    content: ''; 
+    position: absolute;
+    left: -20px; top: 50%;
+    border: 15px solid transparent;
+    border-right: 20px solid rgba(255,255,255, 0.9);
+ }
+
+ .batuInformation img, .bromoInformation img{
+margin-top: 25px;
+ }
+
+ .batuInformation h3, .bromoInformation h3{
+	color:#01a2a6;
+	font-family: 'Lato-Medium', sans-serif;
+	font-size: 30px;
+ }
+ .batuInformation p{
+	color:#777;
+	font-family: 'Lato-Black', sans-serif;
+	font-size: 16px;
+ }
+
+ .bromo{
+	background-image: url(../img/mountains_baner.jpg);
+	background-size: cover;
+	background-position: center;
+	max-height: 361px;
+	margin-top: 30px;
+}
+
+.bromoInformation p{
+	color:#777;
+	font-family: 'Lato-Regular', sans-serif;
+	font-size: 16px;
+}
+
+.bromoInformation::before{
+    content: ''; 
+    position: absolute;
+    right: -20px; top: 50%;
+    border: 15px solid transparent;
+    border-left: 20px solid rgba(255,255,255, 0.9);
+ }
+
+
+.bromoInformation span{
+font-family: 'Lato-Black', sans-serif;
+}
+
+.island{
+	margin-top: 30px;
+	background-image: url(../img/island_baner.jpg);
+	background-size: cover;
+	background-position: center;
+	max-height: 361px;
+	height: 361px;
+}
+.island::after{
+	content: ''; 
+    position: absolute;
+	height: 150px;
+	width: 150px;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background-image: url(../img/island.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(255,255,255, 0.9);
+}
+
+.pageNavigation{
+	text-align: center;
+	margin:20px 0;
+}
+
+.pagination li a{
+border:none;
+font-size : 18px;
+font-family:"Lato-Black", sans-serif;
+color:#acacac;
+background: none;
+vertical-align: middle;
+line-height: 24px;
+}
+.pagination li:nth-child(2) a{
+	font-size : 24px;
+	color:#01a2a6;
+}
+
+/*Set Ittinery*/
+
+.SetIttinery h2{
+	margin-top: 20px;
+	font-size : 60px;
+	font-family:"Chunkfive", sans-serif;
+	color:#29d9c2;
+	text-align: center;
+}
+.SetIttinery h2 span{
+	color:#01a2a6;
+}
+.SetIttinery p{
+	font-size : 16px;
+	font-family:"Lato-Regular", sans-serif;
+	color:#777777;
+	line-height: 35px;
+	text-align: center;
+	margin-bottom: 120px;
+}
+.ittinery{
+	background-color: #ffffa6;
+	border-radius: 10px;
+}
+.ittinery img{
+	border-radius: 10px 10px 0px 0px;
+}
+
+.ittinery h3{
+	top:0px;
+	position: absolute;
+	font-size : 18px;
+	font-family:"Lato-Black", sans-serif;
+	color:#fff;
+	left:50%;
+	transform: translate(-50%);
+}
+
+.ittinery p{
+	font-size : 16px;
+	font-family:"Lato-Black", sans-serif;
+	color:#29d9c2;
+	margin-bottom: 0px;
+}
+.dragBox{
+	background-color: #fbf6a3;
+	border:dashed 3px #e8e897;
+	margin-bottom: 70px;
+}
+.dragBox p{
+	font-family:"Lato-Heavy", sans-serif;
+	color:#d8cb7d;
+	line-height: 50px;
+	margin-bottom: 0px;
 }
