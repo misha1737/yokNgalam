@@ -137,7 +137,7 @@
 							</div>
 						</div>	
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 hidden-sm hidden-xs">
 						<div class="island">
 						</div>
 					</div>
@@ -159,9 +159,11 @@
 	<section class="SetIttinery">
 		<div class="container">
 			<div class="row">
+				<div class="IttineryTitle">
 					<h2>Set <span>Ittinery</span></h2>
 					<p>Simply drag and drop what you want to visit, and voila we make a ittinery and schedule for your vacation.
 					have a great trip !</p>
+				</div>	
 			</div>
 		</div>
 		<div class="container">
@@ -171,10 +173,10 @@
 						<img src="img/itinerary-header.jpg" class="img-responsive" alt="ittinery">
 						<h3>Your Ittinery Title Here</h3>
 						<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-4">
 								<p>Day 1</p>
 							</div>
-							<div class="col-md-3 col-md-offset-4">
+							<div class="col-md-3 col-sm-3 col-xs-3 col-xs-offset-4">
 								<p>17/07/2017 <i class="caret"></i></p>
 							</div>
 						</div>
@@ -186,10 +188,10 @@
 							</div>	
 						</div>
 						<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-4">
 								<p>Day 2</p>
 							</div>
-							<div class="col-md-3 col-md-offset-4">
+							<div class="col-md-3 col-sm-3 col-xs-3 col-xs-offset-4">
 								<p>18/07/2017 <i class="caret"></i></p> 
 							</div>
 						</div>
@@ -201,15 +203,29 @@
 							</div>	
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-6">
+								<button class="save_btn">
+									<span class="glyphicon glyphicon-file"></span>
+									SAVE AS PDF
+								</button>
+								<button class="print_btn">
+									<span class="glyphicon glyphicon-print"></span>
+									PRINT
+								</button>
+						</div>
+					</div>
+				
 				</div>
 				<div class="col-md-5">
 					<div class="itList">
 						<h3>List of Destination</h3>
+						<div class="list_line"></div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="dropdown">
 								 <span>sort by:</span>
-								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								  <button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown">
 								    All
 								    <span class="caret"></span>
 								  </button>
@@ -221,15 +237,149 @@
 								  </ul>
 								</div>
 							</div>
-							<div class="col-md-3 col-md-offset-2">
+							<div class="col-md-3 col-md-offset-3">
 								<p><span class="glyphicon glyphicon-search"></span></p>
 							</div>
+						</div>
+						<div class="row listElement">
+								<div class="col-md-9 col-sm-9 col-xs-9">
+									<h4>Mt. Bromo</h4>
+									<p>estimated time:<span> 5 Hours</span></p>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="img/mountains.png" class="img-responsive alt="mountains">
+								<a href="#">view details</a>
+								</div>
+						</div>
+						<div class="row listElement">
+								<div class="col-md-9 col-sm-9 col-xs-9">
+									<h4>Mt. Panderman</h4>
+									<p>estimated time:<span> 5 Hours</span></p>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="img/mountains.png" class="img-responsive alt="mountains">
+								<a href="#">view details</a>
+								</div>
+						</div>
+							<div class="row listElement">
+								<div class="col-md-9 col-sm-9 col-xs-9">
+									<h4>Mt. Semeru</h4>
+									<p>estimated time:<span> 5 Hours</span></p>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="img/mountains.png" class="img-responsive alt="mountains">
+								<a href="#">view details</a>
+								</div>
+						</div>
+							<div class="row listElement">
+								<div class="col-md-9 col-sm-9 col-xs-9">
+									<h4>Mt. Bromo</h4>
+									<p>estimated time:<span> 5 Hours</span></p>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="img/mountains.png" class="img-responsive alt="mountains">
+								<a href="#">view details</a>
+								</div>
+						</div>
+							<div class="row listElement">
+								<div class="col-md-9 col-sm-9 col-xs-9">
+									<h4>Mt. Bromo</h4>
+									<p>estimated time:<span> 5 Hours</span></p>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="img/mountains.png" class="img-responsive alt="mountains">
+								<a href="#">view details</a>
+								</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contactTitle">
+					<h2>
+						Contact
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<div class="col-md-12">
+						<input type="email" placeholder="Your Email">
+					</div>
+					<div class="col-md-6 ">
+						<input type="text" placeholder="Company">
+					</div>
+					<div class="col-md-6 ">
+						<input type="text" placeholder="Subject">
+					</div>
+					<div class="col-md-12">
+						<input type="text" placeholder="Your Messages">
+					</div>			
+						<button>
+							SEND MESSAGE
+						</button>
+				</div>
+
+				<div class="col-md-2 hidden-sm hidden-xs">
+					<span class="decorText">or</span>
+				</div>
+				<div class="col-md-5 col-sm-12 col-xs-12">
+					<h3>You Can Find Us Here</h3>
+					<p><span class="glyphicon glyphicon-home"></span> Jl.Danau Bratan sekian nomer sekian, Sawojajar Malang</p>
+					<p><span class="glyphicon glyphicon-user"></span> (+62) 8816723812</p>
+					<p><span class="glyphicon glyphicon-user"></span> (+62) 8512371632</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="subscr">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Keep in Touch</h2>
+					<p>We Will Give you latest information about Malang</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1" >
+					<form action="email">
+						<input type="email" name="email" placeholder="Type Email Here for Subscribe">
+						<button type="email">
+						<span class="glyphicon glyphicon-chevron-right"></span></button>
+					</form>
+
+
+
+
+				</div>	
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<ul>
+						<li><a href="#">Term & Condition</a><span></span></li>
+						<li><a href="#">Policy</a><span></span></li>
+						<li><a href="#">Privacy</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="social">
+						<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+				<p>copyright@YokMalang. Allright Reserved. 2015</p>
+			</div>
+		</div>
+	</footer>
 	<script src="libs/jquery/jquery-2.1.4.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/common.js"></script>

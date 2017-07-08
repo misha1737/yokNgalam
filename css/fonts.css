@@ -36,3 +36,8 @@
 	font-family: "Chunkfive";
 	src: url("../fonts/Chunkfive.otf") format("truetype");
 }
+
+@font-face {
+	font-family: "Lato-Italic";
+	src: url("../fonts/Lato-Italic.ttf") format("truetype");
+}

@@ -47,6 +47,32 @@
 		color:#10273d;
 		border: solid 3px rgba(0,0,0,0);
 	}
+	footer p{
+		margin-top: 70px;
+	}
+
+/*----*/
+	.about h2{
+	margin-top: 60px;
+	}
+
+	.about .row{
+	margin-bottom: 30px;
+	}
+
+	.IttineryTitle p{
+	margin-bottom: 40px;
+	}
+	
+	.contact h2{
+	margin: 0px;
+	margin-top: 30px;
+	}
+	.contact .container .row
+	{
+		margin-bottom: 30px;
+	}
+		
 	
 
 /* Extra Small Devices, Phones */
@@ -56,6 +82,9 @@
 		line-height: 60px;
 		background-color: #01a2a6;
 		position: fixed;
+	}
+	header{
+	height: auto;
 	}
 	.top_line{
 		display: none;
@@ -96,6 +125,22 @@
 	{
 	font-size: 14px;
 	}
+
+	.destination h2{
+	font-size : 30px;
+	}
+	
+	.destination p{
+	font-size : 14px;
+	}
+
+	.IttineryTitle h2{
+	font-size : 30px;
+	}	
+	.IttineryTitle p{
+		font-size : 14px;
+	}
+
 	.about h2{
 		margin-top: 30px;
 		font-size : 30px;
@@ -104,6 +149,38 @@
 		font-size : 14px;
 		line-height: 20px;
 	}	
+
+	.about h2{
+	margin-top: 60px;
+	}
+
+	.about .row{
+	margin-bottom: 30px;
+	}
+
+	.IttineryTitle p{
+	margin-bottom: 40px;
+	}
+	
+	.contact h2{
+	margin: 0px;
+	margin-top: 30px;
+	font-size: 30px;
+	}
+	.contact .container .row
+	{
+		margin-bottom: 30px;
+	}
+
+	.contact h3{
+	font-size: 22px;
+	margin: 30px;
+	}
+
+	.subscr h2{
+	margin-top: 30px;
+	font-size: 30px;
+	}
 }
 
 /* Custom, iPhone Retina */
