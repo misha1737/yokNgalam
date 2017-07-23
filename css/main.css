@@ -22,7 +22,7 @@ header h2 span{
 	
 header{
 	height: 738px;
-	background-image: url("../img/banner.jpg");
+	background-image: url("../img/b.jpg");
 	background-size: cover;
 	background-position: 50% 100%;
 }
@@ -187,7 +187,7 @@ margin-top:120px;
 }
 
 .batu{
-	background-image: url(../img/batu_baner.jpg);
+	background-image: url(../img/batu_b.jpg);
 	background-size: cover;
 	background-position: center;
 	max-height: 520px;
@@ -223,7 +223,7 @@ margin-top: 25px;
  }
 
  .bromo{
-	background-image: url(../img/mountains_baner.jpg);
+	background-image: url(../img/mountains_b.jpg);
 	background-size: cover;
 	background-position: center;
 	max-height: 361px;
@@ -251,7 +251,7 @@ font-family: 'Lato-Black', sans-serif;
 
 .island{
 	margin-top: 30px;
-	background-image: url(../img/island_baner.jpg);
+	background-image: url(../img/island_b.jpg);
 	background-size: cover;
 	background-position: center;
 	max-height: 361px;
