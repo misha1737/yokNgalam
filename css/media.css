@@ -21,6 +21,10 @@
 	.logo{
 	margin-top: 0px;
 	}
+	.bromoInformation::before{
+    content: ''; 
+    display:none;
+ 	}
 	.menu_btn{
 		height: 40px;
 		width: 40px;
